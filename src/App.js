@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         {/* Route for login page */}
-        <Route path="/loginpage" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
         
         {/* Route to manage graphs */}
         <Route path="/manage-graph" element={<ManageGraphForm />} />
